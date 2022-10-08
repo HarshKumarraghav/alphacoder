@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Avatar from "../../../Assets/Avatars/face1.svg";
 const DashHeader = () => {
   return (
@@ -9,7 +8,7 @@ const DashHeader = () => {
       </div>
       <div className="w-10 h-10 md:w-12 md:h-12 text-[12px] md:text-sm ">
         <div className=" w-full h-full flex justify-center items-center bg-primary-color rounded-full overflow-hidden">
-          <Image src={Avatar} />
+          <img src={Avatar} />
         </div>
       </div>
     </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+
 import Img1 from "../../../Assets/StructureImg/img1.svg";
 import Img2 from "../../../Assets/StructureImg/img2.svg";
 import Img3 from "../../../Assets/StructureImg/img3.svg";
@@ -17,27 +17,27 @@ const DashData = () => {
           <div className="flex overflow-x-scroll md:w-full ">
             <div className="flex flex-nowrap md:w-full md:justify-between gap-4 px-5 scroll-smooth">
               <div className=" flex-col w-56 h-56 bg-primary-light shadow-light-shadow rounded-md flex justify-center items-center overflow-hidden">
-                <Image src={Img1} width={200} />
+                <img src={Img1} className="w-48" />
                 <h1 className="pb-2 font-head font-semibold">Blind75 Sheet</h1>
               </div>
               <div className=" flex-col w-56 h-56 bg-primary-light shadow-light-shadow rounded-md flex justify-center items-center overflow-hidden">
-                <Image src={Img2} width={200} />
+                <img src={Img2} className="w-48" />
                 <h1 className="pb-2 font-head font-semibold">Fraz's Sheet</h1>
               </div>
               <div className=" flex-col w-56 h-56 bg-primary-light shadow-light-shadow rounded-md flex justify-center items-center overflow-hidden">
-                <Image src={Img3} width={200} />
+                <img src={Img3} className="w-48" />
                 <h1 className="pb-2 font-head font-semibold">
                   Apna College's Sheet
                 </h1>
               </div>
               <div className=" flex-col w-56 h-56 bg-primary-light shadow-light-shadow rounded-md flex justify-center items-center overflow-hidden">
-                <Image src={Img4} width={200} />
+                <img src={Img4} className="w-48" />
                 <h1 className="pb-2 font-head font-semibold">
                   Love Babar's Sheet
                 </h1>
               </div>
               <div className=" flex-col w-56 h-56 bg-primary-light shadow-light-shadow rounded-md flex justify-center items-center overflow-hidden">
-                <Image src={Img5} width={200} />
+                <img src={Img5} className="w-48" />
                 <h1 className="pb-2 font-head font-semibold">
                   Striver's Sheet
                 </h1>
